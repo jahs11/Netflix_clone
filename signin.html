@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix india-Watch TV shows online ,Watch movies online</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60268bc2bd.js" crossorigin="anonymous">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" chrossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/60268bc2bd.js" crossorigin="anonymous">
+    </script>
+    <script src=" js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="+">
+ <style>
+   .signin
+   {
+    text-align: center;
+    margin-top: 12%;
+    background-color:#000;
+    opacity: 0.7;
+    overflow: hidden;
+    width: 500px;
+    margin-left: 400px;
+    margin-bottom: 60px;
+   
+   }
+   .signin input{
+    flex: 1;
+    background-color: dimgrey;
+    color:white;
+    outline: 0;
+    border-radius: 4px;
+    margin-left: 40px;
+    padding: 15px 100px; 
+    margin-top:30px;
+    text-align: left;
+    justify-content: flex-start;
+    /* margin-left: 40px; */
+  }
+   .signin-btn{
+    padding: 15px 160px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+   }
+   ::placeholder
+   {
+    color: #fff;
+   }
+   .checkbox{
+    margin-right: 300px;
+   }
+   span{
+    color: blue;
+    cursor: pointer;
+   }
+   h1{
+    margin-top: 15px;
+    margin-right: 300px;
+    font-weight: 500;
+   }
+   .lbl-user{
+    margin-right: 200px;
+   }
+   .footer{
+    opacity: 0.7;
+   }
+
+ </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <nav>
+            <img src="logo.png" class="logo">
+        </nav>
+
+        <div class="signin">
+          <h1>Sign in</h1>
+          <form action="lobby.html" onsubmit="return validation()">
+            <input type="email" placeholder="email" id="uname" required><br>
+            <input type="password" placeholder="password" id="pass"  required><br>
+            <br><br>
+            <button type="submit" class="signin-btn">Sign in</button><br>
+           <label  class="lbl-user"><input type="checkbox" checked class="checkbox"> Remember me</label> 
+            
+            <p>New to Netflix? sign up now</p>
+            <small>This page is protected by Google reCAPTCHA to ensure you're not a bot. <span>Learn more</span></small>
+        </form>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <h2>Queries? Contact 999-111-000-2</h2>
+
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Cookie Prefernces</a>
+            </div>
+
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Corporate infromation</a>
+
+
+            </div>
+
+            <div class="col">
+                <a href="#">Terms of Use</a>
+            </div>
+
+            <div class="col">
+                <a href="#">Privacy</a>
+
+
+
+            </div>
+
+
+        </div>
+        <button class="langugae-btn">English <img src="down-icon.png" alt=""></button>
+        <p class="copyright-txt">Netflix India</p>
+    </div>
+
+<script type="text/javascript">
+    function validation() 
+{ 
+    var username = document.getElementById("uname");
+    var password = document.getElementById("pass");
+
+    if(username.value == "jashujash11@gmail.com" && password.value == "jashu11")
+    {
+         true;
+    }
+    else
+    {
+        alert("wrong credetials!")
+        return false;
+    }
+}
+
+</script>
+
+
+</body>
+
+</html>

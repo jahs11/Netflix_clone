@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="lobby.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <a href="" class="logo"><img src="logo.png" width="100px"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <form id="form">
+            <!-- <img src="search.png" > -->
+            <input type="text"  placeholder="Search" class="search-box" id="search-box">
+         
+        </form>
+
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV shows</a></li>
+            <li><a href="#">Up coming</a></li>
+
+        </ul>
+        <!-- <a href="#" class="btn">Sign in</a> -->
+    </header>
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="home1.jpg">
+                <div class="home-text">
+                    <span>Marvel universe</span>
+                    <h1>Venom: Let there <br> Be Carnage</h1>
+                    <a href="#" class="btn">Play
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide container">
+                <img src="home2.jpg">
+                <div class="home-text">
+                    <span>Marvel universe</span>
+                    <h1>Avengers: <br> Infinity War</h1>
+
+                    <a href="#" class="btn">Play
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide container">
+                <img src="home3.jpg">
+                <div class="home-text">
+                    <span>Marvel universe</span>
+                    <h1>Spider-Man: Far from Home</h1>
+                    <a href="#" class="btn">Play
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+
+    </section>
+   
+    <section class="movies" id="movies">
+        <h2 class="heading"> Trending</h2>
+
+        <div class="movies-container">
+            <!-----------------movie-1------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="m1.jpg">
+                    <div class="movieinfo">
+                        
+                        <span class="green"></span>
+                    </div>
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-2------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="m2.jpg">
+                </div>
+                <h3>Dunkrik</h3>
+                <span>120 min | Adventure</span>
+            </div>
+
+            <!-----------------movie-3------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="m3.jpg">
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+
+            <!-----------------movie-4------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="m4.jpg">
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-5------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="m5.jpg">
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-6------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="m6.jpg">
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-7------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="m7.jpg">
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-8------------>
+            <div class="box">
+                <div class="box-img">
+                    <img src="m8.png">
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-9------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="m9.jpg">
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-- ---------------movie-10----------- -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="m10.jpg">
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+        </div>
+    </section>
+    <!-------------------------------------UP coming----------------------------------------- -->
+
+    <section class="movies" id="movies">
+        <h2 class="heading">Up coming this week</h2>
+
+        <div class="movies-container">
+            <!-----------------movie-1------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming1.jpg">
+                </div>
+                <h3>Johnny English -strikes again</h3>
+
+                <span>120 min | Comedy entertainer</span>
+            </div>
+
+            <!-----------------movie-2------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming2.jpg">
+                </div>
+                <h3>Warcraft</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-3------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming3.jpg">
+                </div>
+                <h3>Rampage</h3>
+                <span>120 min | Adventure</span>
+            </div>
+
+
+            <!-----------------movie-4------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming4.jpg">
+                </div>
+                <h3>Iron lady</h3>
+                <span>120 min | Family drama</span>
+            </div>
+
+            <!-----------------movie-5------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming5.jpg">
+                </div>
+                <h3>Justice league</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-6------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming6.jpeg">
+                </div>
+                <h3>Doctor strange</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-7------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming7.jpg">
+                </div>
+                <h3>Captain Marvel</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-8------------>
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming8.jpg">
+                </div>
+                <h3>Black widow</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-9------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming9.jpg">
+                </div>
+                <h3>ANT-MAN</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-- ---------------movie-10----------- -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming10.jpg">
+                </div>
+                <h3>Guardians of the galaxy</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-------------------------------------Telugu movies----------------------------------------- -->
+
+    <section class="movies" id="movies">
+        <h2 class="heading">Telugu movies </h2>
+
+        <div class="movies-container">
+            <!-----------------movie-1------------->
+            <div class="box">
+                <div class="box-img">
+                    <a href="vikram movie.html"><img src="vikram.webp"></a>
+                </div>
+                <h3>Vikram</h3>
+
+                <span>120 min | Action thriller </span>
+            </div>
+
+            <!-----------------movie-2------------->
+            <div class="box">
+                <div class="box-img">
+                    <a href="oridevuda movie.html"><img src="ori devuda img.avif"></a>
+                </div>
+                <h3>Ori Devuda</h3>
+                <span>120 min | Love/drama</span>
+            </div>
+
+            <!-----------------movie-3------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="RRR.webp">
+                </div>
+                <h3>RRR</h3>
+                <span>120 min | Action/thriller</span>
+            </div>
+
+            <!-----------------movie-4------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="AVPL.jpg">
+                </div>
+                <h3>Ala vaikuntapuramlo</h3>
+                <span>120 min | Action/Drama</span>
+            </div>
+
+            <!-----------------movie-5------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="SLNE.avif">
+                </div>
+                <h3>Sarileru Neekevvaru</h3>
+                <span>120 min | Action/Comedy</span>
+            </div>
+
+            <!-----------------movie-6------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="B2.jpg">
+                </div>
+                <h3>Baahubali 2</h3>
+                <span>120 min | Action/Adventure</span>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <a href="karthikeya2.html"> <img
+                            src="https://akamaividz2.zee5.com/image/upload/w_504,h_756,c_scale,f_webp,q_auto:eco/resources/0-0-1z5230360/portrait/1920x7705cdbb5146bd5414b8bf237d9a97d99e8.jpg"></a>
+                </div>
+                <h3>Karthikeya 2</h3>
+                <span>120 min | Action/Adventure</span>
+            </div>
+
+
+            <div class="box">
+                <div class="box-img">
+                    <a href="sita ramam.html"> <img
+                            src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Sita_Ramam.jpg/220px-Sita_Ramam.jpg.jpg"></a>
+                </div>
+                <h3>Seetha Ramam</h3>
+                <span>120 min | Action/Adventure</span>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <a href="macherla.html"> <img
+                            src="https://m.media-amazon.com/images/M/MV5BY2YzOTkxZTAtZjc1Zi00Njk1LTg5ZTktNDc0MjI3ZWFlZTc3XkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_FMjpg_UX1000_.jpg"></a>
+                </div>
+                <h3>Macherla Niyojakavargam</h3>
+                <span>120 min | Action/Adventure</span>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <a href="godfather.html"> <img
+                            src="https://images.news18.com/ibnlive/uploads/2022/07/god-father.jpg"></a>
+                </div>
+                <h3>God Father</h3>
+                <span>120 min | Action/Adventure</span>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <!----------------------------------------------------Popular series---------------------------------------->
+
+
+    <section class="movies" id="movies">
+        <h2 class="heading">Popular Series </h2>
+
+        <div class="movies-container">
+            <!-----------------movie-1------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_.jpg">
+                </div>
+                <h3>Stranger things</h3>
+
+                <span>2016 ‧ Drama ‧ 4 seasons
+                </span>
+            </div>
+
+            <!-----------------movie-2------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="ghost doctorlegit.jpg">
+                </div>
+                <h3>Ghost Doctor</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-3------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmU5NTcwNjktODIwMi00ZmZkLTk4ZWUtYzVjZWQ5ZTZjN2RlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY1200_CR83,0,630,1200_AL_.jpg">
+                </div>
+                <h3>Rampage</h3>
+                <span>120 min | Adventure</span>
+            </div>
+
+
+            <!-----------------movie-4------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming4.jpg">
+                </div>
+                <h3>Iron lady</h3>
+                <span>120 min | Family drama</span>
+            </div>
+
+            <!-----------------movie-5------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming5.jpg">
+                </div>
+                <h3>Justice league</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-6------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming6.jpeg">
+                </div>
+                <h3>Doctor strange</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-7------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming7.jpg">
+                </div>
+                <h3>Captain Marvel</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-8------------>
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming8.jpg">
+                </div>
+                <h3>Black widow</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-9------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming9.jpg">
+                </div>
+                <h3>ANT-MAN</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-- ---------------movie-10----------- -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming10.jpg">
+                </div>
+                <h3>Guardians of the galaxy</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+        </div>
+    </section>
+    <!-------------------------------------------------TV SHOWS---------------------------------->
+
+
+    <section class="movies" id="movies">
+        <h2 class="heading">TV SHOWS</h2>
+
+        <div class="movies-container">
+            <!-----------------movie-1------------->
+            <div class="box">
+                <div class="box-img">
+                    <a href="unstoppable prabhas.html"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsR2FoshFK3R4aXU20HKi0KccJ5gJby3pltQ&usqp=CAU"></a>
+                </div>
+                <h3>Unstoppable Prabhas S-01</h3>
+
+                <span>50min | Entertainment</span>
+            </div>
+
+            <!-----------------movie-2------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="ghost doctorlegit.jpg">
+                </div>
+                <h3>Warcraft</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-3------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming3.jpg">
+                </div>
+                <h3>Rampage</h3>
+                <span>120 min | Adventure</span>
+            </div>
+
+
+            <!-----------------movie-4------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming4.jpg">
+                </div>
+                <h3>Iron lady</h3>
+                <span>120 min | Family drama</span>
+            </div>
+
+            <!-----------------movie-5------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming5.jpg">
+                </div>
+                <h3>Justice league</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-6------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming6.jpeg">
+                </div>
+                <h3>Doctor strange</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-7------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming7.jpg">
+                </div>
+                <h3>Captain Marvel</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-8------------>
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming8.jpg">
+                </div>
+                <h3>Black widow</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-----------------movie-9------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming9.jpg">
+                </div>
+                <h3>ANT-MAN</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+            <!-- ---------------movie-10----------- -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="coming10.jpg">
+                </div>
+                <h3>Guardians of the galaxy</h3>
+                <span>120 min | Action thriller</span>
+            </div>
+
+        </div>
+    </section>
+    <!-------------------------------------------------bollywood movies---------------------------------->
+
+    <section class="movies" id="movies">
+        <h2 class="heading">Bollywood movies</h2>
+
+        <div class="movies-container">
+            <!-----------------movie-1------------->
+            <div class="box">
+                <div class="box-img">
+                    <a href="unstoppable prabhas.html"><img
+                            src="https://m.media-amazon.com/images/M/MV5BYjM0YTFmN2EtYTQ0Ny00NmU2LTk5NmQtODhjYzhkOTVjZDA5XkEyXkFqcGdeQXVyOTI3MzI4MzA@._V1_FMjpg_UX1000_.jpg"></a>
+                </div>
+                <h3>Ram setu</h3>
+
+                <span>143 min |Action /Adventure</span>
+            </div>
+
+            <!-----------------movie-2------------->
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/6/65/Thank_God_film_poster.jpg">
+                </div>
+                <h3>Thank God</h3>
+                <span>121 min | Comedy / Fantasy</span>
+            </div>
+
+            <!-----------------movie-3------------->
+            <div class="box">
+                <div class="box-img">
+                    <img
+                        src="https://m.media-amazon.com/images/M/MV5BMTY4YjFhMzUtMWIxMC00NDI2LTgxOGYtMDM1ZGQ1ZDUxZTE0XkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_.jpg">
+                </div>
+                <h3>Lal Singh Chadda</h3>
+                <span>161 min | Romance/Drama</span>
+            </div>
+
+
+            <!-----------------movie-4------------->
+            <div class="box">
+                <div class="box-img">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Dobaaraa_poster.jpg/220px-Dobaaraa_poster.jpg">
+                </div>
+                <h3>Dobaaaraa</h3>
+                <span>133 min | Drama/Thriller</span>
+            </div>
+
+            <!-----------------movie-5------------->
+            <div class="box">
+                <div class="box-img">
+                    <img
+                        src="https://m.media-amazon.com/images/M/MV5BNDI3M2E5ZGQtZjVlNS00NzFhLTg0NTAtZDZmOTBjODg3ZDQ1XkEyXkFqcGdeQXVyNzkxOTEyMjI@._V1_.jpg">
+                </div>
+                <h3>Sooryavanshi</h3>
+                <span>145 min | Action/Drama</span>
+            </div>
+
+            <!-----------------movie-6------------->
+            <div class="box">
+                <div class="box-img">
+                    <img
+                        src="https://m.media-amazon.com/images/M/MV5BYTEyYjgzNmUtM2QyYi00MWMwLWExMDctZmY1NmZhNGY5MWNiXkEyXkFqcGdeQXVyOTcwMTQxMTM@._V1_.jpg">
+                </div>
+                <h3>Vikram Vedha</h3>
+                <span>160 min | Action/Crime</span>
+            </div>
+
+            <!-----------------movie-7------------->
+            <div class="box">
+                <div class="box-img">
+                    <img
+                        src="https://m.media-amazon.com/images/M/MV5BMGI2ZDQ2MzgtNjk2Ny00MTU5LWE0ZWQtM2I5NjRlODY5MGM1XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg">
+                </div>
+                <h3>Chennai Express</h3>
+                <span>141 min | Action/Romance</span>
+            </div>
+
+            <!-----------------movie-8------------>
+            <div class="box">
+                <div class="box-img">
+                    <img
+                        src="https://img1.hotstarext.com/image/upload/f_auto,t_vl/sources/r1/cms/prod/9219/1389219-v-9752e6e5bb92">
+                </div>
+                <h3>Chhichhore</h3>
+                <span>143 min |Comedy/Romance</span>
+            </div>
+
+            <!-----------------movie-9------------->
+            <div class="box">
+                <div class="box-img">
+                    <img
+                        src="https://m.media-amazon.com/images/M/MV5BODA4MjM2ODk4OF5BMl5BanBnXkFtZTcwNDgzODk1OQ@@._V1_.jpg">
+                </div>
+                <h3>Yeh Jawani Hai Deewani</h3>
+                <span>160 min | Romance/Drama</span>
+            </div>
+
+            <!-- ---------------movie-10----------- -->
+            <div class="box">
+                <div class="box-img">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/en/b/b4/Taare_Zameen_Par_Like_Stars_on_Earth_poster.png">
+                </div>
+                <h3>Taare Zameen Par</h3>
+                <span>164 min | Drama/Musical</span>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+    <div class="allmovies">
+
+    </div>
+
+
+
+    <!-------------------------------------------FOOETR------------------------------------------------------------->
+    <section class="footer">
+        <a href="" class="logo"><img src="logo.png" width="100px"></a>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </section>
+
+<!-- into main function
+after in to  -->
+
+    <div class="copyright">
+        <p>&#169;Netflix-India All Rights Reserved.</p>
+    </div>
+    <!-- ------------------------JS------------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
